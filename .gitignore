@@ -1,0 +1,6 @@
+_build/
+*.bit
+*.bin
+*.vcd
+.vscode/
+scripts/local.env
