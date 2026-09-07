@@ -6,6 +6,8 @@ Yosys and nextpnr-xilinx via [openXC7](https://github.com/openXC7), wrapped by
 [apio](https://github.com/FPGAwars/apio). The board is programmed over the
 network from the Linux it boots itself, so no JTAG cable is involved.
 
+![PYNQ-Z2 board](docs/pynqz2.png)
+
 ## Setup
 
 ### Toolchain
