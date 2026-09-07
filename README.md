@@ -1,4 +1,4 @@
-# fpga
+# pynq-z2-setup
 
 Verilog projects for the PYNQ-Z2 (Zynq-7020, `xc7z020clg400-1`), built with
 the open-source toolchain instead of Vivado. Synthesis and place-and-route use
@@ -145,14 +145,14 @@ interrupts), wire those PS7 ports instead of tying them off. The openXC7 demo
 
 All pins are LVCMOS33.
 
-| signal | pins |
-| --- | --- |
-| 125 MHz clock (from the Ethernet PHY, always present) | H16 |
-| LEDs LD0–LD3 | R14 P14 N16 M14 |
-| Buttons BTN0–BTN3 | D19 D20 L20 L19 |
-| Switches SW0–SW1 | M20 M19 |
-| RGB LED LD4 (R G B) | N15 G17 L15 |
-| RGB LED LD5 (R G B) | M15 L14 G14 |
+| signal                                                | pins            |
+| ----------------------------------------------------- | --------------- |
+| 125 MHz clock (from the Ethernet PHY, always present) | H16             |
+| LEDs LD0–LD3                                          | R14 P14 N16 M14 |
+| Buttons BTN0–BTN3                                     | D19 D20 L20 L19 |
+| Switches SW0–SW1                                      | M20 M19         |
+| RGB LED LD4 (R G B)                                   | N15 G17 L15     |
+| RGB LED LD5 (R G B)                                   | M15 L14 G14     |
 
 Arduino, Pmod and HDMI pins are in the PYNQ-Z2 reference manual and in the
 board's `base.xdc` from the PYNQ repository.
